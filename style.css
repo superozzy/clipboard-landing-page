@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+    font-family:'Bai Jamjuree', sans-serif; 
+    font-size: 18px;
+    
+   
+}
+
+.container{
+    max-width: 500px;
+    overflow: hidden;
+   max-height: 100%;
+    display: flex;
+    flex-direction: row;;
+    margin: 0 auto;
+   justify-content: center;
+   justify-items: center;
+   text-align: center;
+
+  
+}
+ /* head section   */
+
+ .head{
+     position: relative;
+     background-image: url(images/bg-header-mobile.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+    
+ }
+ .logo{
+    text-align: center;;
+     margin-bottom:2rem;
+ }
+
+ .firstbox{
+     position: relative;
+     top:7.5rem;
+     max-width:550px;
+ }
+
+ .intro{
+    position:relative;
+    margin-top:3.5rem;
+ }
+ .firstintro{
+     font-weight:600;
+     width:95%;
+     margin:0 auto;
+     flex-wrap:wrap;
+     color:hsl(210, 10%, 33%);
+     justify-content: center;
+  
+   position:relative;
+   bottom:3rem;
+
+ }
+
+ .secondintro{
+     position:relative;
+    bottom:1.5rem;
+     width:350px;
+     margin:0 auto;
+     justify-content: center;
+     justify-items: center;
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    font-size:18px;
+    
+    
+
+ }
+
+ /* btn section */
+ .btn-dwn{
+display: flex;
+flex-direction: column;
+width: 300px;
+margin:0 auto;
+position:relative;
+top:0.5rem;
+padding:8px;
+
+ }
+
+ .ios ,.mac{
+     padding:15px;
+border-radius:28px;
+margin-bottom:1rem;
+cursor: pointer;
+font-weight: 400;
+color:white;
+/* height:60px; */
+border:1px solid gray;
+box-shadow: 0 10px 6px -6px #777; ;
+font-size:18px;
+}
+ .ios{
+     background-color:hsl(171, 66%, 44%) ;
+ }
+ .mac{
+     background-color:hsl(233, 100%, 69%) ;
+ }
+
+.ios:hover{
+   background-color: black;
+ }
+.mac:hover{
+    background-color: black;
+}
+
+/* second-section */
+.main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:350px;
+}
+.computer{
+    width:80%;
+    margin: 0 auto;
+}
+
+.secondbox{
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.thirdintro{
+   width:70%;
+   margin:0 auto;
+   color:hsl(210, 10%, 33%);
+   font-weight:600;
+   margin-bottom:1rem;
+}
+
+.fourintro{
+     width:85%;
+     margin:0 auto;
+     color:hsl(201, 11%, 66%);
+     margin-bottom:3rem;
+     justify-items: center;
+}
+
+
+
+.informations{
+    margin-top:7rem;
+}
+
+/* third section */
+
+.thirdbox{
+   position: relative;
+   top:550px;
+}
+
+.devices{
+    width:80%;
+    margin-top:3rem;
+}
+
+/* tools section */
+
+.tools{
+    position:relative;
+    top:600px;
+}
+
+.snipets{
+    position: relative;
+    top:50px;
+    /* margin-top:10rem; */
+}
+
+.smalllogos{
+    margin-top:1rem;
+    margin-bottom:1.5rem;
+}
+
+/* sponsors section */
+
+.sponsors{
+    display: flex;
+    margin:0 auto;
+    position: relative;
+    top:100px;
+    margin-top:50px;
+}
+
+/* last box */
+
+.lastbox{
+    margin-top:900px;
+}
+
+/* footer */
+.footer{
+    position: relative;
+    top:80px;
+    height: 500px;
+}
+
+
+.lasticon{
+    width:10%;
+    margin-bottom:1rem;;
+}
+
+.lastwords{
+    color:   hsl(210, 10%, 33%);
+    margin-bottom:1rem;
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* font-awesome */
+
+.fafa{
+    
+    margin-top:3rem;
+   
+}
+
+.space{
+    color: hsl(210, 10%, 33%);
+    
+  width:50px;
+  cursor: pointer;
+}
+
+.space:hover{
+    color:blue;
+}
+
+
+
+/* media queries */
+@media only screen and (min-width: 1200px) {
+    .container{
+      margin:0 auto;
+        max-width:100%;
+        max-height: 100%;
+        justify-content: center;
+        justify-items: center;
+    }
+    .head{
+      background-image: url(images/bg-header-desktop.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .firstbox{
+        margin:0 auto;
+    }
+    .btn-dwn{
+        display: flex;
+        flex-direction: row;
+        width:80%;
+        margin:0 auto;
+        position: relative;
+        /* left:100px; */
+        justify-items: center;
+        justify-content: space-evenly;
+       
+    }
+
+    
+
+    .computer{
+           
+          position: relative;
+          right: 30px;;
+           margin-top:4rem;
+       }
+
+    .flexbox{
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+    .informations{
+        text-align: start;
+      line-height: 35px;
+       
+    }
+
+    .start{
+        position:relative;
+        right:2.5rem;
+    }
+  .smaller{
+      right: 3rem;
+      width:700px;
+  }
+
+  .intro{
+      width:600px;
+  }
+    .longer{
+        width:600px;
+    }
+
+    .snipets{
+        display: flex;
+        flex-direction: row;
+    }
+    #smallbox{
+        margin: 0 auto;
+        position: relative;
+        /* text-align: center; */
+        /* margin-right:9rem; */
+      width: 450px;
+      
+    }
+    .bigfont{
+        font-size:40px;
+    }
+
+    .sponsor-images{
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+    .lastbtn{
+       
+       width:450px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        background-color:lightgray;
+        height: 300px;
+    }
+     .lasticon{
+         width:50px;
+         height: 50px;
+         position: relative;
+         top:100px;
+         left:100px;
+     }
+     .faq{
+         margin:0 auto;
+         position: relative;
+         width: 300px;;
+         top:100px;
+         
+     }
+     .fafa{
+         margin: 0 auto;
+         position: relative;
+         top: 100px;
+     }
+
+     
+}
