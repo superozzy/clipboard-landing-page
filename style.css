@@ -256,6 +256,7 @@ font-size:18px;
     .head{
       background-image: url(images/bg-header-desktop.png);
       background-repeat: no-repeat;
+      background-position: top-right;
       background-size: cover;
     }
     .firstbox{
@@ -314,7 +315,8 @@ font-size:18px;
         display: flex;
         flex-direction: row;
     }
-    #smallbox{
+
+    #smallbox1 #smallbox2 #smallbox3{
         margin: 0 auto;
         position: relative;
         /* text-align: center; */
@@ -329,7 +331,14 @@ font-size:18px;
     .sponsor-images{
         display: flex;
         flex-direction: row;
+        
        
+    }
+
+    .sponsors{
+        max-width: 161px;
+        max-height: 35px;
+        
     }
 
     .lastbtn{
@@ -339,27 +348,34 @@ font-size:18px;
     .footer{
         display: flex;
         flex-direction: row;
-        background-color:lightgray;
-        height: 300px;
+        background-color:rgb(236, 228, 228);
+        height: 250px;
     }
      .lasticon{
          width:50px;
          height: 50px;
          position: relative;
-         top:100px;
+         top:80px;
          left:100px;
      }
      .faq{
-         margin:0 auto;
+         /* margin:0 auto; */
          position: relative;
          width: 300px;;
-         top:100px;
+         top:80px;
+         left: 10rem;;
+          
          
+     }
+     .lastwords{
+        text-align: start;
+        justify-content: space-evenly;
      }
      .fafa{
          margin: 0 auto;
          position: relative;
-         top: 100px;
+         top: 80px;
+         font-size: 20px;;
      }
 
      
