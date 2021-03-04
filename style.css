@@ -257,7 +257,7 @@ font-size:18px;
     .head{
       background-image: url(images/bg-header-desktop.png);
       background-repeat: no-repeat;
-      background-position: top-right;
+      background-position: top;
       background-size: cover;
     }
     .firstbox{
